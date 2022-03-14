@@ -1,0 +1,45 @@
+int:x,int:y,char:t,string:a;
+
+class clasa
+begin_class
+
+    int:data_member,float:data_member_2;
+    def int:class_method(string:param,char:param1;)
+    begin_function
+        param=True;
+    end_function;
+
+end_class;
+
+def string:abcdef()
+begin_function
+
+end_function;
+
+def int:f(int:param,char:param1;)
+begin_function
+    int:y;
+end_function;
+
+begin
+    int:a,int:p;
+    clasa:b;
+    array<int>[7]:c;
+
+    b.data_member = 777;
+    p=1000;
+    a=74158;
+    b.data_member_2 = 89;
+    
+    int:a;
+
+    while(True)
+    begin_statement
+        int:idx;
+        for(idx=0;True;idx=9)
+        begin_statement
+            print("Valoarea expresiei 2+(3*4)+7 este:", 2+(3*4)+7);
+            print("Valoarea expresiei idx+7 este:", idx+7);
+        end_statement
+    end_statement
+end

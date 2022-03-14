@@ -1,0 +1,17 @@
+Variables Symbol Table is: 
+int, x, none, global 
+int, y, none, global 
+char, t, none, global 
+string, a, 74158, global 
+string, param, True, function clasa::class_method 
+char, param1, none, function clasa::class_method 
+int, param, none, function f 
+char, param1, none, function f 
+int, y, none, function f 
+int, param, none, function lfac 
+int, a, 74158, main 
+int, p, 1000, main 
+int, b.data_member, 777, main 
+int, b.data_member_2, 89, main 
+array, c, none, main 
+int, idx, 9, main 

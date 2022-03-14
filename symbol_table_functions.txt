@@ -1,0 +1,5 @@
+Functions Symbol Table is: 
+int clasa::class_method(string char )
+string abcdef()
+int f(int char )
+int lfac(int )
