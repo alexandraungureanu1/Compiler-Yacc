@@ -1,10 +1,10 @@
 ## Requirements
 
-Design an original programming language using YACC. Your language should should include: </br>
+Design an original programming language using YACC. Your language should should include: </br></br>
 :heavy_check_mark: predefined types  ( int , float, char,  string, bool), array types  and user defined data types (similar to classes in object orientated languages, but with your own syntax); provide specific syntax to allow initialization and use of variables of user defined types </br>
 :heavy_check_mark: variable declarations/definition, constant definitions, function definitions </br>
 :heavy_check_mark: control statements (if, for, while, etc.), assignment statements </br>
-:heavy_check_mark: assignment statements should be of the form: left_value  = expression (where left_value can be an identifier, an element of an array, or anything else specific to your language)
+:heavy_check_mark: assignment statements should be of the form: left_value  = expression (where left_value can be an identifier, an element of an array, or anything else specific to your language) </br>
 :heavy_check_mark: arithmetic and boolean expressions </br>
 :heavy_check_mark: function calls which can have as parameters: expressions, other function calls, identifiers, constants, </br> </br>
 
@@ -30,7 +30,6 @@ Detailed error messages should be provided if these conditions do not hold (e.g.
 :heavy_check_mark: 4) build abstract syntax trees (AST) for the integer expressions in a program;  </br>
 if a program is syntactically and semantically correct and the expr type is int , for every call of the form Print(str,expr) , the AST for the expression will be evaluated and the actual value of expr will be printed. </br>
 Also, for every assignment instruction left_value = expr (left_value is an identifier or element of an array with int type), the AST will be evaluated and its value will be assigned to the left_value </br>
-(2.5pt)
 
 AST: abstract syntax tree - built during parsing </br>
 abstract syntax tree for an arithmetic expression: </br>
