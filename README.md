@@ -1,7 +1,7 @@
 ## Requirements
 
 Design an original programming language using YACC. Your language should should include: </br>
-:heavy_check_mark: predefined types  ( int , float, char,  string, bool), array types  and user defined data types (similar to classes in object orientated languages, but with your own syntax); provide specific syntax to allow initialization and use of variables of user defined types 0.5pt;
+:heavy_check_mark: predefined types  ( int , float, char,  string, bool), array types  and user defined data types (similar to classes in object orientated languages, but with your own syntax); provide specific syntax to allow initialization and use of variables of user defined types </br>
 :heavy_check_mark: variable declarations/definition, constant definitions, function definitions </br>
 :heavy_check_mark: control statements (if, for, while, etc.), assignment statements </br>
 :heavy_check_mark: assignment statements should be of the form: left_value  = expression (where left_value can be an identifier, an element of an array, or anything else specific to your language)
